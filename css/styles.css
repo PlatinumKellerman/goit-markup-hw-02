@@ -1,5 +1,7 @@
-.body {
+body {
   background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .main1 {
@@ -13,19 +15,34 @@
   width: 1600px;
   height: 80px;
 }
+.hdr a {
+  text-decoration: none;
+}
 .hdr ul li {
   display: inline;
 }
 .nav-list {
   display: inline;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .logo-studio {
   color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-web {
   color: #2196f3;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .nav-list {
@@ -47,18 +64,32 @@
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
-  margin: auto;
 }
 
 .section1-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
-  margin: auto;
 }
 
 .btn {
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
   border-radius: 4px;
   background-color: #ffffff;
   color: #212121;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .btn:hover {
@@ -91,10 +122,16 @@
 }
 
 .section2-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: #212121;
 }
 
 .section2-list p {
+  font-size: 14px;
+  line-height: 1.71;
   color: #757575;
 }
 
@@ -105,8 +142,11 @@
   margin: auto;
 }
 .section3-title {
-  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
+  color: #212121;
 }
 .section3-list li {
   display: inline;
@@ -120,8 +160,11 @@
   margin: auto;
 }
 .section4-title {
-  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
+  color: #212121;
 }
 .section4-list {
   width: 1170px;
@@ -137,10 +180,17 @@
 }
 
 .section4-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   color: #212121;
 }
 
 .section4-list p {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   color: #757575;
 }
 
@@ -152,10 +202,23 @@
 }
 
 .logo-studio-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: #ffffff;
 }
-.foot p {
+.adrs {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
   color: #ffffff;
+}
+.adrs ul {
+  list-style: none;
+}
+.foot a {
+  text-decoration: none;
 }
 .foot a {
   color: rgb(255, 255, 255, 0.6);
@@ -168,24 +231,37 @@
 }
 
 /* PORTFOLIO */
-
-/* SECTION 1 */
-.section-filters {
-  width: 611px;
-  height: 54px;
-  background-color: #ffffff;
+.portfolio {
+  width: 1170px;
+  height: 1360px;
   margin: auto;
 }
+.portfolio-title {
+  display: none;
+}
+/* FILTERS */
+
 .filters-title {
   display: none;
 }
 .filters-list {
+  width: 611px;
+  height: 54px;
+  background-color: #ffffff;
+  margin: auto;
   display: flex;
+  list-style: none;
 }
+
 .filters-list button {
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 .filters-list button:hover {
   color: #ffffff;
@@ -196,12 +272,8 @@
   background-color: #2196f3;
 }
 
-/* SECTION 2 */
-.section-projects {
-  width: 1170px;
-  height: 1360px;
-  margin: auto;
-}
+/* PROJECTS */
+
 .projects-title {
   display: none;
 }
@@ -209,8 +281,14 @@
   display: inline-block;
 }
 .projects-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 .projects-list p {
+  font-size: 16px;
+  line-height: 1.87;
   color: #757575;
 }
