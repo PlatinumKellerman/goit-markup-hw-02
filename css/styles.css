@@ -218,6 +218,9 @@ body {
   font-style: normal;
   color: var(--background);
 }
+.foot-list {
+  list-style: none;
+}
 .foot-adrs {
   font-size: 14px;
   line-height: 1.71;
