@@ -17,7 +17,14 @@ body {
 }
 
 /* HEADER */
-.hdr a {
+
+.nav-list-index {
+  text-decoration: none;
+}
+.nav-list {
+  text-decoration: none;
+}
+.nav-list1 {
   text-decoration: none;
 }
 .hdr-list {
@@ -43,6 +50,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent);
+  text-decoration: none;
 }
 .nav-list1 {
   font-weight: 500;
@@ -66,6 +74,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .nav-list-index:hover,
@@ -183,14 +192,17 @@ body {
 .section4-list-p {
   font-size: 16px;
   line-height: 1.18;
-  color: var(--grey);
+  color: var(--main-text);
 }
 
 /* footer */
 .foot {
   background-color: var(--hero-background);
 }
-.foot a {
+.foot-adrs {
+  text-decoration: none;
+}
+.foot-a {
   text-decoration: none;
 }
 .logo-studio-footer {
