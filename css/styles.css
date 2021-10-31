@@ -1,54 +1,59 @@
 :root {
-  --background-color: #ffffff;
-  --white-color: #ffffff;
-  --black-color: #000000;
-  --black-color212121: #212121;
-  --darkgrey-color: #2f303a;
-  --grey-color: #757575;
-  --rgb-white-color: rgb(255, 255, 255, 0.6);
-  --blue-color: #2196f3;
+  --background: #ffffff;
+  --logo-text: #000000;
+  --main-h2h3: #212121;
+  --hero-background: #2f303a;
+  --main-text: #757575;
+  --footer: rgb(255, 255, 255, 0.6);
+  --accent: #2196f3;
+  --section4-bckgnd: #f5f4fa;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--background);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  color: var(--black-color212121);
+  color: var(--main-h2h3);
 }
 
 /* HEADER */
-
+.hdr a {
+  text-decoration: none;
+}
+.hdr-list {
+  list-style: none;
+}
 .nav-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--black-color212121);
+  color: var(--main-h2h3);
 }
 .nav-list-index {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--blue-color);
+  color: var(--accent);
 }
 .nav-list-portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--blue-color);
+  color: var(--accent);
 }
 .nav-list1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--grey-color);
+  color: var(--main-text);
 }
 
 .logo-studio {
-  color: var(--black-color);
+  color: var(--logo-text);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -56,7 +61,7 @@ body {
 }
 
 .logo {
-  color: var(--blue-color);
+  color: var(--accent);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -66,30 +71,30 @@ body {
 .nav-list-index:hover,
 .nav-list-index:focus,
 .nav-list-index:active {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 
 .nav-list-portfolio:hover,
 .nav-list-portfolio:focus,
 .nav-list-portfolio:active {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 .nav-list:hover,
 .nav-list:focus,
 .nav-list:active {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 
 .nav-list1:hover,
 .nav-list1:focus {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 
 /* BODY */
 
 /* section 1 */
 .section1 {
-  background-color: var(--darkgrey-color);
+  background-color: var(--hero-background);
 }
 
 .section1-title {
@@ -98,13 +103,13 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--background);
 }
 
 .btn {
   font-family: Roboto;
-  background-color: var(--blue-color);
-  color: #ffffff;
+  background-color: var(--accent);
+  color: var(--background);
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -112,13 +117,15 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background-color: var(--blue-color);
-  color: var(--white-color);
+  background-color: var(--accent);
+  color: var(--background);
 }
 
 /* section 2 */
@@ -127,6 +134,9 @@ body {
   display: none;
 }
 
+.section2-list {
+  list-style: none;
+}
 .section2-h3 {
   font-weight: 700;
   font-size: 14px;
@@ -137,7 +147,7 @@ body {
 .section2-p {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--grey-color);
+  color: var(--main-text);
 }
 
 /* section 3 */
@@ -146,10 +156,12 @@ body {
   font-size: 36px;
   line-height: 1.16;
 }
-
+.section3-list {
+  list-style: none;
+}
 /* section4 */
 .section4 {
-  background-color: var(--background-color);
+  background-color: var(--section4-bckgnd);
 }
 .section4-title {
   font-weight: 700;
@@ -158,7 +170,8 @@ body {
 }
 
 .section4-list {
-  background-color: var(--background-color);
+  list-style: none;
+  background-color: var(--background);
 }
 
 .section4-list-h3 {
@@ -170,46 +183,48 @@ body {
 .section4-list-p {
   font-size: 16px;
   line-height: 1.18;
-  color: var(--grey-color);
+  color: var(--grey);
 }
 
 /* footer */
 .foot {
-  background-color: var(--darkgrey-color);
+  background-color: var(--hero-background);
 }
-
+.foot a {
+  text-decoration: none;
+}
 .logo-studio-footer {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--white-color);
+  color: var(--background);
 }
 .adrs {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  color: var(--white-color);
+  color: var(--background);
 }
 .foot-adrs {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  color: var(--white-color);
+  color: var(--background);
 }
 .foot-adrs:hover,
 .foot-adrs:focus,
 .foot-adrs:active {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 
 .foot-a {
-  color: var(--rgb-white-color);
+  color: var(--footer);
 }
 .foot-a:hover,
 .foot-a:focus,
 .foot-a:active {
-  color: var(--blue-color);
+  color: var(--accent);
 }
 
 /* PORTFOLIO */
@@ -220,29 +235,34 @@ body {
 
 /* FILTERS */
 .filters-list {
-  background-color: var(--background-color);
+  background-color: var(--background);
   display: flex;
   list-style: none;
 }
 
 .filters-list-button {
   font-family: Roboto;
-  background-color: var(--background-color);
+  background-color: var(--section4-bckgnd);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  border: none;
+  border-radius: 4px;
 }
 
 .filters-list-button:hover,
 .filters-list-button:focus,
 .active-button:active {
-  color: var(--white-color);
-  background-color: var(--blue-color);
+  color: var(--background);
+  background-color: var(--accent);
 }
 
 /* PROJECTS */
+.projects-list {
+  list-style: none;
+}
 .projects-list-h2 {
   font-weight: 700;
   font-size: 18px;
@@ -252,5 +272,5 @@ body {
 .projects-list-p {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--grey-color);
+  color: var(--main-text);
 }
