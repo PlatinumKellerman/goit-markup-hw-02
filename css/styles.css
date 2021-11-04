@@ -79,21 +79,13 @@ body {
 
 .nav-list-index:hover,
 .nav-list-index:focus,
-.nav-list-index:active {
-  color: var(--accent);
-}
-
+.nav-list-index:active,
 .nav-list-portfolio:hover,
 .nav-list-portfolio:focus,
-.nav-list-portfolio:active {
-  color: var(--accent);
-}
+.nav-list-portfolio:active,
 .nav-list:hover,
 .nav-list:focus,
-.nav-list:active {
-  color: var(--accent);
-}
-
+.nav-list:active,
 .nav-list1:hover,
 .nav-list1:focus {
   color: var(--accent);
@@ -146,14 +138,14 @@ body {
 .section2-list {
   list-style: none;
 }
-.section2-h3 {
+.section2-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.section2-p {
+.section2-list-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-text);
@@ -183,13 +175,13 @@ body {
   background-color: var(--background);
 }
 
-.section4-list-h3 {
+.section4-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
-.section4-list-p {
+.section4-list-text {
   font-size: 16px;
   line-height: 1.18;
   color: var(--main-text);
@@ -202,7 +194,7 @@ body {
 .foot-adrs {
   text-decoration: none;
 }
-.foot-a {
+.foot-contacts {
   text-decoration: none;
 }
 .logo-studio-footer {
@@ -233,12 +225,12 @@ body {
   color: var(--accent);
 }
 
-.foot-a {
+.foot-contacts {
   color: var(--footer);
 }
-.foot-a:hover,
-.foot-a:focus,
-.foot-a:active {
+.foot-contacts:hover,
+.foot-contacts:focus,
+.foot-contacts:active {
   color: var(--accent);
 }
 
